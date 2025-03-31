@@ -7,8 +7,9 @@
 また、研究のためのスクリプトが蓄積されていき、組織としての共有が進んでいくことで、研究の効率化が期待できます。
 
 github 上のコードは非公開(private)とするので、外部からは見えません。また、各個人が github の アカウントを有しさえおけば、vscode と github 間の認証機能を利用することで、特別な ssh 接続の設定なしに利用できるようです。
+<br>
 
----
+--- 
 
 ## ソースコードの利用手順
 
@@ -71,19 +72,9 @@ git config --global [user.name](http://user.name/) "your email address"
 git config --global user.email "your email address"
 ```
 
----
-
 ## Note
 
 - リポジトリを作成する際は、`private`リポジトリとすること
 - `README.md` ファイルをつけること
 - `git push` すると自身が編集した内容が反映されてしまうので気をつけること
   (変更をアップロードする必要がなければ、`rm -rf .git` で git の管理下から外れても OK)
-
----
-
-### 管理者へ
-
-- マシン係は管理者を引き継いで、メンバーの Organization への参加と team への追加対応をする
-- メンバーに適切に権限を設定し、リポジトリが破壊されないようにすること
-- [詳細はこちら](https://www.notion.so/Github-Organization-c9b1e493d2354ca9a6da1fc9d1c8e231)
