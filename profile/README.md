@@ -68,7 +68,7 @@ github 上のコードは非公開(private)とするので、外部からは見�
 ※git init 前の git アカウントの設定
 
 ```bash
-git config --global [user.name](http://user.name/) "your email address"
+git config --global user.name "your name"
 git config --global user.email "your email address"
 ```
 
@@ -76,5 +76,5 @@ git config --global user.email "your email address"
 
 - リポジトリを作成する際は、`private`リポジトリとすること
 - `README.md` ファイルをつけること
-- `git push` すると自身が編集した内容が反映されてしまうので気をつけること
+- `git push` すると自身が編集した内容が反映されてしまうので気をつけること<br>
   (変更をアップロードする必要がなければ、`rm -rf .git` で git の管理下から外れても OK)
