@@ -15,11 +15,11 @@ github 上のコードは非公開(private)とするので、外部からは見�
 1. github Organization のページに行く
 2. 利用したいソースコードのリポジトリを選択する
 
-   ![repository_view.png](../sample_img/repository_view.png)
+   ![repository_view.png](img/repository_view.png)
 
 3. `code` の `HTTPS` を選択し、URL をコピーする
 
-   ![clone_view.png](../sample_img/clone_view.png)
+   ![clone_view.png](img/clone_view.png)
 
 4. ローカルで、ソースコードをもってきたいディレクトリに移動し、clone する。
 
@@ -38,11 +38,11 @@ github 上のコードは非公開(private)とするので、外部からは見�
 
 1. 右上の `New repository` から、リポジトリを新規作成する
 
-   ![repository_view.png](../sample_img/repository_view.png)
+   ![repository_view.png](img/repository_view.png)
 
 2. `Repository name`に英語で適当な名前をつけ、 `Description`に日本語で説明を入力し、`private` にチェックを入れて作成する。
 
-   ![new_repositpry.png](../sample_img/new_repository.png)
+   ![new_repositpry.png](img/new_repository.png)
 
 3. ローカルから作成したリモートリポジトリに push する
 
@@ -62,7 +62,7 @@ github 上のコードは非公開(private)とするので、外部からは見�
 
 4. github のリポジトリのページをリロードして、以下のようにソースコードがあることが確認できれば OK
 
-   ![repository_detail.png](../sample_img/repository_detail.png)
+   ![repository_detail.png](img/repository_detail.png)
 
 ※git init 前の git アカウントの設定
 
