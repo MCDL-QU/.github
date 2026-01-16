@@ -72,6 +72,23 @@ git config --global user.name "your name"
 git config --global user.email "your email address"
 ```
 
+## 最新のソースコードの変更を取り込む手順
+
+1. リモートリポジトリを紐づける
+   ```bash
+   git remote add origin リモートリポジトリのURL
+   ```
+
+2. 最新のリモートリポジトリの差分をローカルに取得する
+   ```bash
+   git fetch origin
+   ```
+   
+3. ローカルの内容を強制的にリモートリポジトリの内容に合わせる
+   ```bash
+   git reset --hard origin/main
+   ```
+
 ## Note
 
 - リポジトリを作成する際は、`private`リポジトリとすること
